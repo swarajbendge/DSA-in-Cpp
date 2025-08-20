@@ -1,4 +1,4 @@
-To find mximum sum of a contigous sub-array.
+// To find mximum sum of a contigous sub-array.
 
 
 
