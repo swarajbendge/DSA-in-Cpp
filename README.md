@@ -2,9 +2,9 @@
 
 Welcome to DSA-in-Cpp, a well-organized collection of Data Structures and Algorithms implemented in C++. This repository is designed to help students to learn and prepare for coding interviews. This repository is well structured covering topics from Basics of DS, Advanced DS and Important Algorithms.
 
-✅ Basic Data Structures (Arrays, Strings, Linked Lists, etc.)
+✅ Basic Data Structures (Arrays, Strings, Linked Lists, stack, queue etc.)
 
-✅ Advanced Data Structures (Stacks, Queues, Trees, Graphs, etc.)
+✅ Advanced Data Structures (Trees, Graphs, etc.)
 
 ✅ Important Algorithms (Sorting, Searching, DP, Graph algorithms, etc.)
 
