@@ -20,3 +20,25 @@ vector<int> bfs(vector<vector<int>> &adj) {
     }
     return bf;
 }
+
+
+// *** Depth First Traversal *** //
+
+  private:
+    void check(vector<vector<int>>& adj, vector<int>& vis, int node, vector<int> &ans){
+        vis[node] = 1;
+        ans.push_back(node);
+        for(auto x : adj[node]){
+            if(!vis[x]){
+                check(adj, vis, x, ans);
+            }
+        }
+    }
+  public:
+    vector<int> dfs(vector<vector<int>>& adj) {
+        int n = adj.size();
+        vector<int> vis(n, 0);
+        vector<int> ans;
+        check(adj, vis, 0, ans);
+        return ans;
+    }
